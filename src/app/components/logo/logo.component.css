@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    width: 150px;
+    
+   
+}
+img{
+    width: 40px;
+    margin: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 1em;
+    border-width: 0.2em;
+}
+/*--Responsive para cel--*/
+@media (max-width:575px){
+    .container{
+    flex-direction: column;
+    }
+    .redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .redes img{
+    margin: 0.2em;
+    }
+}

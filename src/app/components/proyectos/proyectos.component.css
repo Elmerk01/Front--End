@@ -1,0 +1,48 @@
+#portafolio {
+	padding: 50px;
+	background: black;
+    color: #fff;
+}
+
+#portafolio h2 {
+	padding-bottom: 50px;
+}
+
+.portafolio-row {
+	display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.portafolio-row-box {
+	margin: 20px;
+	background: #5422FA;
+	box-shadow:0.5px 0.7px 0.3px rgba(0, 0, 0, 0.155),
+    1.3px 1.7px 0.8px rgba(0, 0, 0, 0.222),
+    2.7px 3.4px 1.6px rgba(0, 0, 0, 0.278),
+    5.5px 6.9px 3.3px rgba(0, 0, 0, 0.345),
+    15px 19px 9px rgba(0, 0, 0, 0.2)
+}
+.portafolio-row-box img {
+	width: 100%;
+}
+
+.portafolio-row-box p {
+	text-align: center;
+	padding: 20px;
+	margin-top: 0;
+    text-transform: uppercase;
+}
+p{
+    color: #fff;
+} 
+
+/* reponsive*/
+@media screen and (max-width:567px) {
+	.portafolio-row{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+}

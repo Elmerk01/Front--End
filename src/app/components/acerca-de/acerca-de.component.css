@@ -1,0 +1,85 @@
+div{
+    background-color: black;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+img{
+    border-radius: 100%;
+    border: 2px solid white;
+    max-width: 200px;
+}
+
+#nombre{
+    padding-top: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#nombre h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+#info{
+    padding-top: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+#info h1{
+    font-weight: bold;
+    padding-bottom: 10px
+}
+.about{
+    text-align: justify;
+}
+
+
+/*Responsive*/
+@media screen and (max-width:767px) {
+    #fperfil{
+        background-color: #fff;
+        
+        position: relative;
+       
+    }
+    .h1{
+
+    }
+    p{
+
+    }
+
+    
+}
+button{
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+@media screen and (min-width:1024px) {
+    #fperfil{
+       
+    }
+}
+@media screen and (min-width:767px) and (max-width:1023px) {
+    #fperfil{
+        position: absolute;
+        float: left;
+        left: 5%;
+        top: 87%;
+       
+    }
+    .h1{
+
+    }
+    .p{
+        
+    }
+}
