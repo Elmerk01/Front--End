@@ -23,7 +23,7 @@ export class EditacercadeComponent implements OnInit {
       data =>{
       this.persona = data;
   },err =>{
-    alert("Error al editar Experiencia");
+    alert("Error al editar persona");
     this.router.navigate(['']);
   }
   )

@@ -51,8 +51,9 @@ img{
     .h1{
 
     }
-    p{
-
+    .about{
+        display: block;
+        ;
     }
 
     
@@ -79,7 +80,7 @@ button{
     .h1{
 
     }
-    .p{
-        
+    .about{
+        flex-wrap: wrap;
     }
 }
