@@ -21,8 +21,10 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia/edit-experiencia.component';
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
-import { NgCircleProgressModule } from 'ng-circle-progress';
+//import { CircleProgressComponent, CircleProgressOptions, NgCircleProgressModule } from 'ng-circle-progress';
 import { EditacercadeComponent } from './components/acerca-de/editacercade.component';
+import {NgCircleProgressModule} from 'ng-circle-progress';
+
 
 
 
