@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
 
-  //URL : 'https://localhost:8080/'
-  URL : 'https://sound-karissa-alejodiaz80ad.koyeb.app/'
+  URL : 'http://localhost:8080/'
+  //URL : 'https://sound-karissa-alejodiaz80ad.koyeb.app/'
   
 };
 
